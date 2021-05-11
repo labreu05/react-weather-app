@@ -1,0 +1,94 @@
+.weather-card {
+    width: 250px;
+    min-width: 230px;
+    background: #B0BBBF;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    -webkit-box-shadow: -4px 14px 30px 4px rgba(0,0,0,0.39); 
+    box-shadow: -4px 14px 30px 4px rgba(0,0,0,0.39);
+}
+
+.weather-card.Clear {
+    background:linear-gradient(135deg, #fcdf8a 0%,#f38381 100%);
+}
+
+.weather-card.Thunderstorm,
+.weather-card.Clouds {
+    background:linear-gradient(135deg, #6ccef1 0%,#71889a 100%);
+}
+
+.weather-card.Rain {
+    background:linear-gradient(135deg, #3f86b7 0%,#1bcedf 100%);
+}
+
+.weather-card.Snow,
+.weather-card.Drizzle {
+    background:linear-gradient(135deg, #d6daed 0%,#5D6874 100%);
+}
+
+.weather-card .date {
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.day-temperature {
+    font-size: 40px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.forecast-container {
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.bold {    
+    font-weight: bold;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 10px;
+}
+
+.main-container .title, .sub-title {
+    text-align: center;
+}
+
+.forecast {
+    text-transform: capitalize;
+    margin-left: 3px;
+}
